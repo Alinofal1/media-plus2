@@ -11,10 +11,6 @@
   margin-bottom: 40px;
 }
 
-.inner-news-section p {
-  width: 80%;
-}
-
 .news-details-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
