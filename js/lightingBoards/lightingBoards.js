@@ -3,8 +3,7 @@ const newsData = [
   {
     img: "/assets/images/ad-boards.png",
     title: "نقابة المعلمين توافق على زيادة الرواتب وتثبيت البدلات",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -14,8 +13,7 @@ const newsData = [
     img: "/assets/images/ad-boards.png",
     title:
       "محافظ رام الله يفتتح مركز تدريب حرفي للناشئين الجدد والمقبلين على المجال",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -24,8 +22,7 @@ const newsData = [
   {
     img: "/assets/images/ad-boards.png",
     title: "وزارة الصحة تطلق حملة وطنية للتطعيم ضد الإنفلونزا والانتشار السريع",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -34,8 +31,7 @@ const newsData = [
   {
     img: "/assets/images/ad-boards.png",
     title: "بلدية البيرة تبدأ مشروع الحرف المهنية لرواد الاعمال الصاعدين",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -44,8 +40,7 @@ const newsData = [
   {
     img: "/assets/images/ad-boards.png",
     title: "نقابة المعلمين توافق على زيادة الرواتب وتثبيت البدلات",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -55,8 +50,7 @@ const newsData = [
     img: "/assets/images/ad-boards.png",
     title:
       "محافظ رام الله يفتتح مركز تدريب حرفي للناشئين الجدد والمقبلين على المجال",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -65,8 +59,7 @@ const newsData = [
   {
     img: "/assets/images/ad-boards.png",
     title: "وزارة الصحة تطلق حملة وطنية للتطعيم ضد الإنفلونزا والانتشار السريع",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -75,8 +68,7 @@ const newsData = [
   {
     img: "/assets/images/ad-boards.png",
     title: "بلدية البيرة تبدأ مشروع الحرف المهنية لرواد الاعمال الصاعدين",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -85,8 +77,7 @@ const newsData = [
   {
     img: "/assets/images/ad-boards.png",
     title: "نقابة المعلمين توافق على زيادة الرواتب وتثبيت البدلات",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -96,8 +87,7 @@ const newsData = [
     img: "/assets/images/ad-boards.png",
     title:
       "محافظ رام الله يفتتح مركز تدريب حرفي للناشئين الجدد والمقبلين على المجال",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -106,8 +96,7 @@ const newsData = [
   {
     img: "/assets/images/ad-boards.png",
     title: "وزارة الصحة تطلق حملة وطنية للتطعيم ضد الإنفلونزا والانتشار السريع",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
@@ -116,8 +105,7 @@ const newsData = [
   {
     img: "/assets/images/ad-boards.png",
     title: "بلدية البيرة تبدأ مشروع الحرف المهنية لرواد الاعمال الصاعدين",
-    text: `أعلنت وزارة الصحة عن انطلاق حملة تطعيم شاملة ضد فيروس الإنفلونزا
-              في جميع محافظات الوطن، تستهدف الفئات العمرية فوق 6 أشهر، وذلك`,
+    text: `أعلنت وزارة الصحة عن انطلاق  وذلك`,
     date: "مايو 22, 2017",
     href: "/pages/lighting-board-innerPage.html",
     puplisher: "Oliver Smith",
