@@ -4,13 +4,13 @@
 
 #images-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 0fr);
   gap: 20px;
   justify-items: center;
 }
 
 .clinets-cards {
-  width: 230px;
+  width: 253px;
   height: 200px;
   border-radius: 15px;
   display: flex;
