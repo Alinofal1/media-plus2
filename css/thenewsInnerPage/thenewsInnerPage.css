@@ -8,16 +8,10 @@
   border-radius: 15px;
   width: 80%;
   margin: auto 10%;
-}
-
-.inner-news-section h2 {
-  text-align: center;
-  margin: 15px auto;
+  margin-bottom: 40px;
 }
 
 .inner-news-section p {
-  margin: auto;
-  text-align: center;
   width: 80%;
 }
 
