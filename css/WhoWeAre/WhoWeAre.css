@@ -1,0 +1,30 @@
+.who-we-are-section {
+  margin: auto;
+  display: flex;
+}
+#who-we-are-para {
+  width: 669px;
+  height: 377px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin-right: 50px;
+  text-align: right;
+}
+.whoweareImage {
+  width: 576px;
+  height: 384px;
+}
+
+#left-side-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.glass {
+  transform: scaleX(-1);
+  margin-top: 200px;
+  width: 280px;
+  height: 245px;
+  margin-right: 3%;
+}

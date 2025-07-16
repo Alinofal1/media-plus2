@@ -1,0 +1,40 @@
+.services {
+  margin: auto;
+}
+
+.services-content {
+  display: flex;
+}
+
+#services-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+#services-cards a {
+  text-decoration: none;
+  color: black;
+}
+
+.servicesImage {
+  transform: translate(-60%, 14%);
+}
+
+.card {
+  width: 207px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card img {
+  margin-top: 20px;
+  margin-bottom: 23px;
+}
+
+.card p {
+  margin: auto;
+  width: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+}

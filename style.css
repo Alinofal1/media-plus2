@@ -1,0 +1,44 @@
+@import url("/css/allFiles.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  margin-top: 70px;
+}
+
+.container {
+  width: 1350px;
+  margin-bottom: 55px;
+}
+
+.titleh2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.publicPara {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155%;
+  text-align: right;
+  color: black;
+}
+
+.orange-line {
+  width: 100px;
+  height: 5px;
+  margin-bottom: 35px;
+  background-color: #f9810d;
+}
+
+.border {
+  border: 1px solid rgba(66, 73, 82, 0.06);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>قارمات</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div id="header-placeholder"></div>
+    <!-- bred crumb -->
+    <div id="breadCrumbContainer">
+      <div class="overlay"></div>
+    </div>
+
+    <!-- Lighting boards -->
+    <section class="billboards container">
+      <div id="billboards-container"></div>
+    </section>
+
+    <!-- footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/header-js/header.js"></script>
+    <script src="/js/breadcrumb/breadcrumb.js"></script>
+    <script src="/js/billboards/billboards.js"></script>
+    <script src="/js/footer/footer.js"></script>
+    <script>
+      renderBreadCrumb("قارمات");
+    </script>
+  </body>
+</html>

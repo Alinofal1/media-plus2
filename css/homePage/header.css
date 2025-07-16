@@ -1,0 +1,120 @@
+.page-header {
+  width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header-placeholder {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.1);
+  transition: height 0.3s ease, padding 0.3s ease;
+  z-index: 999;
+}
+
+.logo {
+  margin-top: 10px;
+  width: 90px;
+  height: 55px;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.page-header ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navContainerScroll {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.page-header ul li {
+  display: block;
+  gap: 28px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.page-header ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.page-header ul li a:hover {
+  color: #f9810d;
+}
+
+#searchLogo {
+  width: 30px;
+  height: 30px;
+}
+
+.search-button {
+  width: 30px;
+  height: 30px;
+  background-color: #f9810d;
+  border: 0.5px solid #f9810d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-icon {
+  stroke: white;
+  transition: stroke 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #fff;
+}
+
+.search-button:hover .search-icon {
+  stroke: #f9810d;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.left-side-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#language {
+  width: 30px;
+  height: 30px;
+  border: solid 0.5px #f9810d;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+#language:hover {
+  background-color: #f9810d;
+  cursor: pointer;
+  color: white;
+}
+
+#language p {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+}

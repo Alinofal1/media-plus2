@@ -1,0 +1,29 @@
+#inner-cards-section {
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+.orange-line {
+  width: 60px;
+  height: 5px;
+  background-color: orange;
+  margin: 10px 0;
+}
+
+#images-container-services {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#images-container-services img {
+  width: 430px;
+  height: 130px;
+  border-radius: 15px;
+}
+
+.inner-cards-para {
+  margin-bottom: 91px;
+}

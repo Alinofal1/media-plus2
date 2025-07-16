@@ -1,0 +1,33 @@
+.buyingMedia {
+  margin: auto;
+}
+
+#image-container {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+#image-container img {
+  width: 180px;
+  padding: 0 30px;
+  margin: 10px auto;
+  height: auto;
+}
+
+#image-container div {
+  border-radius: 15px;
+}
+
+#image-container a {
+  text-decoration: none;
+  color: #737a7d;
+}
+
+.buying-para {
+  text-align: center;
+  margin-top: 5px;
+}

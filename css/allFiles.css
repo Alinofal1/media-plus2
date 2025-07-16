@@ -1,0 +1,45 @@
+@import url("/css/homePage/header.css");
+@import url("/css/homePage/hero.css");
+@import url("/css/homePage/services.css");
+@import url("/css/homePage/news.css");
+@import url("/css/homePage/customers.css");
+@import url("/css/homePage/footer.css");
+
+/* services styling */
+@import url("/css/services/breadcrumb.css");
+
+/* who we are styling */
+@import url("/css/whoWeAre/whoWeAre.css");
+
+/* Customers styling */
+@import url("/css/customers/customers.css");
+
+/* Team Styling */
+@import url("/css/team/team.css");
+
+/* pofile styling */
+@import url("/css/profile/profile.css");
+
+/* contact us */
+@import url("/css/contactus/contact-us.css");
+
+/* the news cards styling */
+@import url("/css/theNews/theNews.css");
+
+/* services inner pages */
+@import url("/css/servicesinnerpages/servicesInnerPages.css");
+
+/* buying media */
+@import url("/css/buyingMedia/buyingMedia.css");
+
+/* search Page */
+@import url("/css/searchPage/searchPage.css");
+
+/* thenewsInnerPage styling */
+@import url("/css/thenewsInnerPage/thenewsInnerPage.css");
+
+/* lightingBoards */
+@import url("/css/lightingBoards/lightingBoards.css");
+
+/* Bill Boards */
+@import url("/css/billBoards/billBoards.css");

@@ -1,0 +1,79 @@
+.billboards {
+  margin: auto;
+}
+
+#billboards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#billboards-container a {
+  text-decoration: none;
+  color: black;
+  width: 330px;
+  border-radius: 30px;
+}
+
+#billboards-container a img {
+  width: 100%;
+  height: 198px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 15px;
+}
+
+#billboards-container a h2 {
+  width: 90%;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: right;
+  margin-bottom: 9px;
+}
+
+#billboards-container a p {
+  width: 90%;
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: block;
+  width: 960px;
+}
+#pagination {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#pagination li {
+  display: inline;
+}
+#pagination li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #000;
+}
+
+#pagination li a {
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+#pagination li a.active {
+  background-color: #f9810d;
+  color: #fff;
+}
+#pagination li a:hover:not(.active) {
+  background-color: #ddd;
+}

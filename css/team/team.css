@@ -1,0 +1,155 @@
+.team {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+  padding: 0 20px;
+  max-width: 1400px;
+  margin: auto;
+  justify-items: center;
+}
+
+.team-members {
+  position: relative;
+  width: 180px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.gray-wrapper {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 180px;
+  height: 230px;
+  z-index: 0;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.team-member-gray {
+  width: 180px;
+  height: 230px;
+  display: block;
+}
+
+.gray-description {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  direction: rtl;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  overflow-y: auto;
+  box-sizing: border-box;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 40px 10px 10px;
+}
+
+.gray-description h3 {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 10px;
+  max-width: 100px;
+  width: 100%;
+}
+
+.gray-description p {
+  font-weight: 700;
+  font-size: 4px;
+  line-height: 2;
+  max-width: 100px;
+  width: 100%;
+}
+
+.gray-description::-webkit-scrollbar {
+  width: 6px;
+}
+
+.gray-description::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+}
+
+.gray-description {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.6) transparent;
+}
+
+/* Hover */
+.team-members:hover .gray-wrapper {
+  transform: translateX(70%);
+}
+
+.team-members:hover .gray-description {
+  opacity: 1;
+}
+
+.team-member-orange {
+  position: absolute;
+  width: 175px;
+  height: 220px;
+  z-index: 1;
+  top: 0;
+  left: 10px;
+}
+
+.team-member {
+  position: absolute;
+  width: 170px;
+  height: 220px;
+  z-index: 2;
+  top: 10px;
+  left: 2px;
+}
+
+.member-bottom {
+  position: absolute;
+  bottom: 10px;
+  z-index: 3;
+  width: 189px;
+}
+
+.team-member-name {
+  width: 189px;
+  height: 30px;
+  background-color: #e98a31;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-member-postion {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #757b7e;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .team {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
