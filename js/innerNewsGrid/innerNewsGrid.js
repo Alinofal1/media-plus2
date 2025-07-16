@@ -1,33 +1,59 @@
-const newsData = [
-  { src: "/assets/images/ramallah.png", alt: "Image 1" },
-  { src: "/assets/images/money.png", alt: "Image 2" },
-  { src: "/assets/images/gaza-municipality.png", alt: "Image 3" },
-  { src: "/assets/images/ministryofhealth.png", alt: "Image 4" },
+const newsItems = [
+  { src: "/assets/images/ramallah.png", alt: "مبنى محافظة رام الله" },
+  { src: "/assets/images/money.png", alt: "أموال وتمويل" },
+  { src: "/assets/images/gaza-municipality.png", alt: "بلدية غزة" },
+  { src: "/assets/images/ministryofhealth.png", alt: "وزارة الصحة" },
 ];
 
-const grid = document.getElementById("news-grid");
+const newsGrid = document.getElementById("news-grid");
 
-newsData.forEach((item, index) => {
-  const wrapper = document.createElement("div");
-  wrapper.className = "media-wrapper";
+newsItems.forEach((item, i) => {
+  const mediaContainer = document.createElement("div");
+  mediaContainer.className = "media-wrapper";
 
-  const img = document.createElement("img");
-  img.src = item.src;
-  img.alt = item.alt;
-  img.className = "media-img";
-  wrapper.appendChild(img);
+  const image = document.createElement("img");
+  image.src = item.src;
+  image.alt = item.alt;
+  image.className = "media-img";
 
-  if (index === 1) {
-    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    svg.setAttribute("class", "svg-overlay");
-    svg.setAttribute("viewBox", "0 0 24 24");
+  mediaContainer.appendChild(image);
 
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    path.setAttribute("d", "M8 5v14l11-7z");
-    svg.appendChild(path);
+  if (i === 1) {
+    const playIcon = document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "svg"
+    );
+    playIcon.setAttribute("class", "svg-overlay");
+    playIcon.setAttribute("viewBox", "0 0 24 24");
 
-    wrapper.appendChild(svg);
+    const playPath = document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "path"
+    );
+    playPath.setAttribute("d", "M8 5v14l11-7z");
+    playIcon.appendChild(playPath);
+
+    mediaContainer.appendChild(playIcon);
+  } else {
+    const imageIcon = document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "svg"
+    );
+    imageIcon.setAttribute("class", "svg-overlay");
+    imageIcon.setAttribute("viewBox", "0 0 24 24");
+
+    const iconPath = document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "path"
+    );
+    iconPath.setAttribute(
+      "d",
+      "M21 19V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"
+    );
+    imageIcon.appendChild(iconPath);
+
+    mediaContainer.appendChild(imageIcon);
   }
 
-  grid.appendChild(wrapper);
+  newsGrid.appendChild(mediaContainer);
 });
